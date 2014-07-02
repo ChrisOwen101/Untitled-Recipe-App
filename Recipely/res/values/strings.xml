@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Recipely</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="carddemo_title_card_expand">List with expandable card</string>
+
+</resources>

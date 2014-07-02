@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="#F4F4F4" />
+
+    <it.gmariotti.cardslib.library.view.component.CardShadowView
+        android:id="@+id/card_shadow_layout"
+        style="@style/card.shadow_outer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/back"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="-5dp" >
+    </it.gmariotti.cardslib.library.view.component.CardShadowView>
+
+    <ImageView
+        android:id="@+id/defaultimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="40dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/square_logo" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

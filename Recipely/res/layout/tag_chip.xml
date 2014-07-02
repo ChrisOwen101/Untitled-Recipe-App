@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/chipBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chip"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Tag" />
+
+    </RelativeLayout>
+
+    <it.gmariotti.cardslib.library.view.component.CardShadowView
+        android:id="@+id/card_shadow_layout"
+        style="@style/card.shadow_outer_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="@+id/chipBack"
+        android:layout_alignRight="@+id/chipBack"
+        android:layout_below="@+id/chipBack" >
+
+    </it.gmariotti.cardslib.library.view.component.CardShadowView>
+
+</RelativeLayout>

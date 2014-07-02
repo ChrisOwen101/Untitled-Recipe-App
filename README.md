@@ -1,4 +1,4 @@
 Untitled-Recipe-App
 ===================
 
-Smart recipe catagorisation app
+Smart recipe categorisation app
